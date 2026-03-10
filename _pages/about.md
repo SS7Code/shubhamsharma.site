@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: false # includes a list of news items
+  enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
@@ -25,8 +25,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi there! I'm a structural engineer who gets genuinely excited about the
-mathematics of how things break.
+Hi there! I'm a Computational Mechanician who uses computers (and some brainpower!) to solve problems of mechanics. These days I am using them for developing softwares for pipe stress and flow analysis. Imagine power plants with complicated network of pipes or a water distribution system which brings water to your homes. All these systems undergo rigorous testing by an engineer who makes use of a computer to ensure these are safe and do no fail. It is truly remarkable how a computers have revolutionised engineering and I am glad to be contributing my part !
 
 I recently completed my PhD at the [Indian Institute of Science (IISc)](https://iisc.ac.in/),
 Bengaluru, where I spent my time developing numerical methods for simulating
