@@ -1,115 +1,52 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title     = {Relativity: the Special and General Theory},
-  author    = {Einstein, Albert},
-  year      = {1920},
-  publisher = {Methuen & Co Ltd},
-  html      = {relativity.html}
+@article{10.1115/1.4050620,
+    author = {Das, Sanhita and Sharma, Shubham and Ramaswamy, Ananth and Roy, Debasish and Reddy, J. N.},
+    title = {A Geometrically Inspired Model for Brittle Damage in Compressible Elastomers},
+    journal = {Journal of Applied Mechanics},
+    volume = {88},
+    number = {8},
+    pages = {081002},
+    year = {2021},
+    month = {04},
+    abstract = {Regularized continuum damage models such as those based on an order parameter (phase field) have been extensively used to characterize brittle damage of compressible elastomers. However, the prescription of the surface integral and the degradation function for stiffness lacks a physical basis. In this article, we propose a continuum damage model that draws upon the postulate that a damaged material could be mathematically described as a Riemannian manifold. Working within this framework with a well-defined Riemannian metric designed to capture features of isotropic damage, we prescribe a scheme to prevent damage evolution under pure compression. The result is a substantively reduced stiffness degradation due to damage before the peak response and a faster convergence rate with the length scale parameter in comparison with a second-order phase field formulation that involves a quadratic degradation function. We also validate this model using results of tensile experiments on double notched plates.},
+    issn = {0021-8936},
+    doi = {10.1115/1.4050620},
+    url = {https://doi.org/10.1115/1.4050620},
+    eprint = {https://asmedigitalcollection.asme.org/appliedmechanics/article-pdf/88/8/081002/6679282/jam_88_8_081002.pdf},
 }
 
-@book{einstein1956investigations,
-  bibtex_show = {true},
-  title       = {Investigations on the Theory of the Brownian Movement},
-  author      = {Einstein, Albert},
-  year        = {1956},
-  publisher   = {Courier Corporation},
-  preview     = {brownian-motion.gif}
+@article{SHARMA2025104371,
+title = {Fine to coarse mesh transition in phase-field fracture simulations using the virtual element method},
+journal = {Finite Elements in Analysis and Design},
+volume = {249},
+pages = {104371},
+year = {2025},
+issn = {0168-874X},
+doi = {https://doi.org/10.1016/j.finel.2025.104371},
+url = {https://www.sciencedirect.com/science/article/pii/S0168874X25000605},
+author = {Shubham Sharma and  Himanshu and Ananth Ramaswamy},
+keywords = {Virtual element method (VEM), Phase-field, Global-local approach, Hanging nodes},
+abstract = {In this study, the virtual element method (VEM) is utilized to address fine-to-coarse mesh transitions in phase-field fracture simulations for brittle, homogeneous media. The VEM discretization of the phase-field brittle damage equation is proposed, where the consistency and stability matrices of the damage sub-problem are derived by treating it as a general second-order linear elliptic equation. A nodal average phase-field measure is introduced to compute the degraded stress field for the elasticity subproblem. This leads to an explicit dependence of the elasticity stability matrix on the phase-field variable. A refinement strategy based on the analytical displacement fields of linear elastic fracture mechanics (LEFM) is proposed to give some guidelines on the number and positioning of hanging nodes relative to the crack front. The proposed discretization strategy is benchmarked against numerical simulations using the finite element method (FEM), smoothed finite element method (SFEM), and experimental results to demonstrate its robustness. The coupled equations for damage and displacement field is solved using a staggered algorithm implemented in the commercial software Abaqus (Standard). A Static Adaptive Mesh Refinement (SAMR) strategy is also implemented in Abaqus (Standard) to highlight the ease with which VEM can be used in phase-field fracture simulations when the crack path is not known a priori. The versatility of the strategy can lead to the efficient treatment of hanging nodes in adaptive mesh refinement (AMR) and global-local approaches, as well as enable efficient and accurate phase-field fracture simulations in large-scale engineering structures.}
 }
 
-@article{einstein1950meaning,
-  abbr        = {AJP},
-  bibtex_show = {true},
-  title       = {The meaning of relativity},
-  author      = {Einstein, Albert and Taub, AH},
-  journal     = {American Journal of Physics},
-  volume      = {18},
-  number      = {6},
-  pages       = {403--404},
-  year        = {1950},
-  publisher   = {American Association of Physics Teachers}
+@article{SHARMA2026120081,
+title = {A robust virtual element method framework coupling phase-field and cohesive zone models for crack propagation in composite structures},
+journal = {Composite Structures},
+volume = {381},
+pages = {120081},
+year = {2026},
+issn = {0263-8223},
+doi = {https://doi.org/10.1016/j.compstruct.2026.120081},
+url = {https://www.sciencedirect.com/science/article/pii/S0263822326000462},
+author = {Shubham Sharma and Ananth Ramaswamy},
+keywords = {Virtual element method (VEM), Phase-field fracture, Cohesive zone model, Mesh transitions, Polygonal elements},
+abstract = {We propose a Virtual Element Method (VEM) framework that couples linear cohesive elements with lowest-order virtual elements to simulate the interplay between matrix cracking and interfacial delamination in composite structures. The matrix domain is discretized using virtual elements based on a phase-field brittle fracture model, enabling accurate representation of crack kinking, curving, and branching. Interfaces are discretized using cohesive elements derived from a potential-based cohesive zone model to capture mixed-mode separation. This coupled discretization handles rapid mesh transitions along interfaces and allows inclusions to be modeled as single polygonal elements with a large number of edges, offering significant meshing flexibility. We validate the framework through numerical examples encompassing mixed-mode interfacial debonding, matrix cracking, crack penetration and deflection at interfaces, and crack kinking from interfaces, comparing results against existing numerical and experimental data. Additionally, we demonstrate a hybrid strategy where the virtual elements are used to discretize inclusions while the finite elements are used to discretize a 3D-printed hyperelastic matrix domain. This hybrid discretization is then employed to simulate multiple crack nucleation and crack coalescence in a 3D-printed hyperelastic composite undergoing finite deformation before brittle fracture. The VEM framework is implemented in the commercial finite element software ABAQUS (Standard) via user-defined elements, making advanced virtual element capabilities accessible within an industry-standard platform. This approach thus provides a robust and flexible tool for simulating brittle fracture in composites with complex damage mechanisms.}
 }
 
-@article{PhysRev.47.777,
-  abbr              = {PhysRev},
-  title             = {Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author            = {Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract          = {In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal           = {Phys. Rev.},
-  location          = {New Jersey},
-  volume            = {47},
-  issue             = {10},
-  pages             = {777--780},
-  numpages          = {0},
-  year              = {1935},
-  month             = {May},
-  publisher         = aps,
-  doi               = {10.1103/PhysRev.47.777},
-  url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html              = {https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf               = {example_pdf.pdf},
-  altmetric         = {248277},
-  dimensions        = {true},
-  google_scholar_id = {qyhmnyLat1gC},
-  video             = {https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info   = {. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation        = {* Example use of superscripts<br>† Albert Einstein},
-  selected          = {true},
-  inspirehep_id     = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title     = {{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author    = {Einstein, A.},
-  journal   = {Annalen der physik},
-  volume    = {322},
-  number    = {8},
-  pages     = {549--560},
-  year      = {1905},
-  publisher = {Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr    = {Ann. Phys.},
-  title   = {Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author  = {Einstein, A.},
-  journal = {Ann. Phys.},
-  volume  = {17},
-  pages   = {549--560},
-  year    = {1905}
-}
-
-@article{einstein1905electrodynamics,
-  title  = {On the electrodynamics of moving bodies},
-  author = {Einstein, A.},
-  year   = {1905}
-}
-
-@article{einstein1905photoelectriceffect,
-  bibtex_show = {true},
-  abbr        = {Ann. Phys.},
-  title       = {{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}},
-  author      = {Albert Einstein},
-  abstract    = {This is the abstract text.},
-  journal     = {Ann. Phys.},
-  volume      = {322},
-  number      = {6},
-  pages       = {132--148},
-  year        = {1905},
-  doi         = {10.1002/andp.19053220607},
-  award       = {Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name  = {Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show = {true},
-  title       = {Letters on wave mechanics},
-  author      = {Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year        = {1967},
-  publisher   = {Vision},
-  preview     = {wave-mechanics.gif},
-  abbr        = {Vision}
+@phdthesis{sharma2025virtual,
+  title={Virtual Element Methods for Phase Field Fracture: Mesh Transitions, Composite Damage, and Stabilization-Free Formulations},
+  author={Sharma, Shubham},
+  year={2025}
 }
