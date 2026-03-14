@@ -29,7 +29,7 @@ This guide helps you optimize your al-folio website for search engines so your r
     - [Image Optimization](#image-optimization)
     - [Internal Linking](#internal-linking)
   - [RSS Feed for Discovery](#rss-feed-for-discovery)
-  - [Performance &amp; Mobile](#performance--mobile)
+  - [Performance \& Mobile](#performance--mobile)
   - [SEO Checklist](#seo-checklist)
   - [Resources](#resources)
 
@@ -56,8 +56,8 @@ al-folio auto-generates a `sitemap.xml` and `robots.txt` for you. These tell sea
 
 **Verify they exist:**
 
-- Visit `https://your-site.com/sitemap.xml` – Should show an XML list of pages
-- Visit `https://your-site.com/robots.txt` – Should show instructions for search engines
+- Visit `https://shubhamsharma.site/sitemap.xml` – Should show an XML list of pages
+- Visit `https://shubhamsharma.site/robots.txt` – Should show instructions for search engines
 
 If they're missing:
 
