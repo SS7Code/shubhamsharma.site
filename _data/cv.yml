@@ -206,19 +206,3 @@ cv:
 
       - name: Odia
         summary: "Proficient"
-
-    References:
-      - name: Prof. Ananth Ramaswamy
-        icon: fa-solid fa-user-tie
-        Designation: Professor & Chairman, Department of Civil Engineering, Indian Institute of Science (IISc), Bangalore.
-        Email: ananth@iisc.ac.in
-
-      - name: Prof. Debasish Roy
-        icon: fa-solid fa-user-tie
-        Designation: Professor, Department of Civil Engineering, Indian Institute of Science (IISc), Bangalore.
-        Email: royd@iisc.ac.in
-
-      - name: Prof. Narayan Sundaram
-        icon: fa-solid fa-user-tie
-        Designation: Associate Professor, Department of Civil Engineering, Indian Institute of Science (IISc), Bangalore.
-        Email: nsundaram@iisc.ac.in
