@@ -1,71 +1,79 @@
 cv:
   name: Shubham Sharma
-  headline: Senior Research Engineer | Computational Mechanics | FEM | Fracture Mechanics
+  label: Senior Research Engineer
   email: sharma.shubham.mailbox@gmail.com
   location: Bengaluru, India
+  image: ""
+  summary: "Applied mechanics researcher with a PhD from IISc Bengaluru. My work sits at the intersection of numerical methods and fracture mechanics — developing Virtual Element Methods (VEM) for Phase Field Fracture models, with applications in composites and structural failure prediction. Published in journals including Composite Structures and Journal of Applied Mechanics. Currently building cloud-native engineering simulation software at SST India. Proficient in ABAQUS, Python, C++, MATLAB, and FORTRAN."
   social_networks:
     - network: LinkedIn
       username: shubham-sharma-iisc
 
+  address:
+    street: Sanjaynagar
+    city: Bengaluru
+    region: Karnataka
+    postalCode: 560094
+    countryCode: India
+
   sections:
-    summary:
-      - "Applied mechanics researcher with a PhD from IISc Bengaluru. My work sits at the intersection of numerical methods and fracture mechanics — developing Virtual Element Methods (VEM) for Phase Field Fracture models, with applications in composites and structural failure prediction. Published in journals including *Composite Structures* and *Journal of Applied Mechanics*. Currently building cloud-native engineering simulation software at SST India. Proficient in ABAQUS, Python, C++, MATLAB, and FORTRAN."
-
-    education:
+    Education:
       - institution: Indian Institute of Science
-        area: Structural Engineering
-        degree: PhD
-        start_date: 2019-08
-        end_date: 2025-07
         location: Bengaluru, India
+        url: https://www.iisc.ac.in/
+        area: Structural Engineering
+        studyType: PhD
+        start_date: 2019-08-01
+        end_date: 2025-07-01
+        score: "8.7/10"
         highlights:
-          - "**Thesis:** Virtual Element Methods for Phase Field Fracture: Mesh Transitions, Composite Damage, and Stabilization-Free Formulations"
-          - "**GPA:** 8.7/10"
-          - "**Fellowship:** ISRO Fellowship awardee (2019–2023)"
-          - "**Key Areas:** Finite Element Method, Solid Mechanics, Fracture Mechanics, Structural Dynamics, Numerical Analysis"
+          - "Thesis: Virtual Element Methods for Phase Field Fracture: Mesh Transitions, Composite Damage, and Stabilization-Free Formulations"
+          - "ISRO Fellowship awardee (2019–2023)"
+          - "Skills: Finite Element Method, Solid Mechanics, Fracture Mechanics, Structural Dynamics, Numerical Analysis"
 
       - institution: National Institute of Technology, Rourkela
-        area: Civil Engineering
-        degree: M.Tech (Dual Degree)
-        start_date: 2018-08
-        end_date: 2019-07
         location: Rourkela, Odisha, India
+        area: Civil Engineering
+        studyType: M.Tech (Dual Degree)
+        start_date: 2018-08-01
+        end_date: 2019-07-01
+        score: "9.84/10"
         highlights:
-          - "**GPA:** 9.84/10"
-          - "**Thesis:** Neural network based approach for linear elastic analysis of asphalt pavements subjected to moving loads"
+          - "Thesis: Neural network based approach for linear elastic analysis of asphalt pavements subjected to moving loads"
 
       - institution: National Institute of Technology, Rourkela
-        area: Civil Engineering
-        degree: B.Tech (Dual Degree)
-        start_date: 2014-08
-        end_date: 2018-07
         location: Rourkela, Odisha, India
+        area: Civil Engineering
+        studyType: B.Tech (Dual Degree)
+        start_date: 2014-08-01
+        end_date: 2018-07-01
+        score: "8.99/10"
         highlights:
-          - "**GPA:** 8.99/10"
+          - "Graduated with Honors"
 
-    experience:
+    Experience:
       - company: SST India Pvt. Ltd.
         position: Senior Research Engineer (Engineering Software)
         location: Bengaluru, India
-        start_date: 2025-07
+        start_date: 2025-07-01
         end_date: present
         highlights:
-          - "Research and development of the pipe stress analysis software **CAEPIPE**"
+          - "Research and development of the pipe stress analysis software CAEPIPE"
           - "Development of a cloud-based flow analysis software"
 
       - company: Indian Institute of Science
         position: Teaching Assistant – Solid Mechanics
         location: Bengaluru, India
-        start_date: 2021-08
-        end_date: 2021-12
+        start_date: 2021-08-01
+        end_date: 2021-12-01
         highlights:
-          - "Conducted doubt-clearing sessions twice a week for a class of **100 students**"
+          - "Conducted doubt-clearing sessions twice a week for a class of 100 students"
 
       - company: ModRoof
         position: Summer Intern
         location: Ahmedabad, India
-        start_date: 2017-05
-        end_date: 2017-07
+        start_date: 2017-05-01
+        end_date: 2017-07-01
         highlights:
           - "Improved flexural properties of bare cardboard panels"
           - "Collaborated in designing steel trusses of span ranging from 6 ft to 20 ft"
@@ -73,123 +81,144 @@ cv:
       - company: South Eastern Railways
         position: Winter Intern
         location: Sundergarh, Odisha, India
-        start_date: 2016-12
-        end_date: 2016-12
+        start_date: 2016-12-01
+        end_date: 2016-12-31
         highlights:
-          - "Exposure to fabrication of steel girders of span 45.7 m and earthworks during embankment construction"
+          - "Gained exposure to construction division activities including fabrication of steel girders of span 45.7 m"
 
-    publications:
+    Publications:
       - title: "A robust virtual element method framework coupling phase-field and cohesive zone models for crack propagation in composite structures"
         authors:
-          - "***Shubham Sharma***"
+          - Shubham Sharma
           - Ananth Ramaswamy
-        journal: Composite Structures
-        date: "2026"
-        doi: 10.1016/j.compstruct.2026.120081
+        publisher: Composite Structures
+        releaseDate: 2026-01-01
+        url: https://doi.org/10.1016/j.compstruct.2026.120081
+        summary: "Proposed a robust VEM framework coupling phase-field and cohesive zone models to simulate crack propagation in composite structures."
 
       - title: "Fine to coarse mesh transition in phase-field fracture simulations using the virtual element method"
         authors:
-          - "***Shubham Sharma***"
+          - Shubham Sharma
           - Himanshu
           - Ananth Ramaswamy
-        journal: Finite Elements in Analysis & Design
-        date: "2025"
-        doi: 10.1016/j.finel.2025.104371
+        publisher: Finite Elements in Analysis & Design
+        releaseDate: 2025-01-01
+        url: https://doi.org/10.1016/j.finel.2025.104371
+        summary: "Developed a novel mesh transition strategy within VEM for phase-field fracture, reducing computational time by up to 60% in crack propagation simulations."
 
       - title: "A Geometrically Inspired Model for Brittle Damage in Compressible Elastomers"
         authors:
           - Sanhita Das
-          - "***Shubham Sharma***"
+          - Shubham Sharma
           - Ananth Ramaswamy
           - Debasish Roy
           - J. N. Reddy
-        journal: Journal of Applied Mechanics
-        date: "2021"
-        doi: 10.1115/1.4050620
+        publisher: Journal of Applied Mechanics
+        releaseDate: 2021-01-01
+        url: https://doi.org/10.1115/1.4050620
+        summary: "Developed a geometrically inspired damage model incorporating material and geometric non-linearity for brittle crack propagation in compressible elastomers."
 
       - title: "A comparison of lowest order standard and stabilization-free virtual element method for phase-field fracture"
         authors:
-          - "***Shubham Sharma***"
+          - Shubham Sharma
           - Ananth Ramaswamy
-        journal: Under preparation
-        date: ""
+        publisher: Under preparation
+        releaseDate: ""
+        summary: "Comparative study of standard and stabilization-free VEM formulations for phase-field fracture."
 
-    projects:
+    Projects:
       - name: "Virtual Element Methods for Phase Field Fracture"
-        start_date: 2019-08
-        end_date: 2025-07
+        summary: "Developed a robust VEM framework for phase field fracture modeling of homogeneous and composite materials. Reduced computational time by up to 60% using a novel mesh transition strategy. Implemented VEM in ABAQUS via user subroutines (UEL) and generated non-matching, Voronoi, and non-convex meshes using MATLAB."
         highlights:
-          - "Developed a robust VEM framework for phase field fracture modeling of homogeneous and composite materials"
-          - "Reduced computational time by **up to 60%** using a novel mesh transition strategy"
-          - "Implemented VEM in ABAQUS via user subroutines (UEL)"
-          - "Generated non-matching, Voronoi, and non-convex meshes using MATLAB"
+          - "60% reduction in computational time via novel mesh transition strategy"
+          - "ABAQUS UEL implementation of VEM"
+          - "Voronoi and non-convex mesh generation in MATLAB"
+        start_date: 2019-08-01
+        end_date: 2025-07-01
 
       - name: "Modeling of Brittle Damage in Rubbery Polymers"
-        start_date: 2019-08
-        end_date: 2022-07
+        summary: "Incorporated material and geometric non-linearity in an in-house damage model to simulate brittle crack propagation in rubbery polymers. Wrote a full non-linear FEM solver in MATLAB and achieved a 7x speedup using parallel programming."
         highlights:
-          - "Incorporated material and geometric non-linearity in an in-house damage model for brittle crack propagation"
-          - "Wrote a full non-linear FEM solver in MATLAB; achieved **7x speedup** via parallel programming"
-          - "Validated simulation results against experimental data"
+          - "7x computational speedup via MATLAB parallel programming"
+          - "Validated against experimental data"
+        start_date: 2019-08-01
+        end_date: 2022-07-01
 
       - name: "Crack Propagation in 3D Adhesive Layers (ISRO Funded)"
-        start_date: 2019-08
-        end_date: 2023-07
+        summary: "Implemented a 3D phase field fracture model using ABAQUS UEL subroutines to simulate crack propagation in adhesive layers. Validated simulation results against experimental data provided by the ISRO review team."
         highlights:
-          - "Implemented a 3D phase field fracture model using ABAQUS UEL subroutines"
-          - "Validated against experimental data provided by the ISRO review team"
-          - "Prepared quarterly reports and presented to ISRO review committee"
+          - "3D phase field fracture implementation in ABAQUS"
+          - "Quarterly reporting and presentations to ISRO review team"
+        start_date: 2019-08-01
+        end_date: 2023-07-01
 
       - name: "Neural Network Based Analysis of Asphalt Pavements"
-        start_date: 2018-08
-        end_date: 2019-07
+        summary: "Developed an ANN architecture to predict critical strains in pavement sections under moving loads, eliminating the need for conventional 3D FEM linear elastic simulations. Automated training dataset generation from ABAQUS using Python scripts."
         highlights:
-          - "Developed an ANN architecture to predict critical strains, replacing conventional 3D FEM simulations"
-          - "Automated training dataset generation from ABAQUS using Python scripts and DLOAD user subroutine"
+          - "ANN-based surrogate model replacing 3D FEM simulations"
+          - "Automated dataset generation pipeline using Python and ABAQUS"
+        start_date: 2018-08-01
+        end_date: 2019-07-01
 
-    skills:
-      - label: Numerical Methods
-        details: "Finite Element Method, Virtual Element Method, Phase Field Fracture, Cohesive Zone Models, Structural Dynamics, Fracture Mechanics"
-      - label: Programming
-        details: "MATLAB, Python, C++, FORTRAN 77, LaTeX"
-      - label: FEM Software
-        details: "ABAQUS (UEL subroutines), CAEPIPE"
+    Awards:
+      - title: ISRO Fellowship
+        date: 2019-08-01
+        awarder: Indian Space Research Organisation (ISRO)
+        summary: "Awarded ISRO fellowship for pursuing PhD at IISc Bengaluru (2019–2023)"
 
-    awards:
-      - name: ISRO Fellowship
-        date: "2019"
-        highlights:
-          - "Awarded by the Indian Space Research Organisation for pursuing PhD at IISc Bengaluru (2019–2023)"
+      - title: MHRD Fellowship (GATE)
+        date: 2018-01-01
+        awarder: Ministry of Human Resource Development, India
+        summary: "Awarded MHRD fellowship for qualifying GATE"
 
-      - name: MHRD Fellowship (GATE)
-        date: "2018"
-        highlights:
-          - "Awarded by the Ministry of Human Resource Development, India, for qualifying GATE"
+      - title: "Topped FEM Course"
+        date: 2019-01-01
+        awarder: Indian Institute of Science
+        summary: "Topped the class of 60 students in the course on Finite Element Method (FEM)"
 
-      - name: Topped FEM Course
-        date: "2019"
-        highlights:
-          - "Topped a class of 60 students in the Finite Element Method (FEM) course at IISc"
+      - title: "Distinction in Mathematics (UNSW Assessment)"
+        date: 2011-01-01
+        awarder: University of New South Wales, Sydney, Australia
+        summary: "Awarded 'Distinction' in Mathematics in an international assessment test conducted by UNSW"
 
-      - name: "Distinction in Mathematics – ICAS (UNSW)"
-        date: "2011"
-        highlights:
-          - "Awarded Distinction in Mathematics in an international assessment test conducted by the University of New South Wales, Sydney, Australia"
+    Skills:
+      - name: Numerical Methods & Simulation
+        level: Expert
+        icon: fa-solid fa-calculator
+        keywords: "Finite Element Method, Virtual Element Method, Phase Field Fracture, Cohesive Zone Models, Structural Dynamics, Fracture Mechanics, Solid Mechanics"
 
-    languages:
-      - label: English
-        details: Fluent
-      - label: Hindi
-        details: Native
-      - label: Odia
-        details: Proficient
+      - name: Programming
+        level: Expert
+        icon: fa-solid fa-code
+        keywords: "MATLAB, Python, C++, FORTRAN 77, LaTeX"
 
-    references:
-      - name: "Prof. Ananth Ramaswamy"
-        reference: "Professor & Chairman, Department of Civil Engineering, Indian Institute of Science (IISc), Bangalore. Email: ananth@iisc.ac.in"
+      - name: FEM Software
+        level: Expert
+        icon: fa-solid fa-desktop
+        keywords: "ABAQUS (UEL subroutines), CAEPIPE"
 
-      - name: "Prof. Debasish Roy"
-        reference: "Professor, Department of Civil Engineering, Indian Institute of Science (IISc), Bangalore. Email: royd@iisc.ac.in"
+    Languages:
+      - name: English
+        summary: "Fluent"
 
-      - name: "Prof. Narayan Sundaram"
-        reference: "Associate Professor, Department of Civil Engineering, Indian Institute of Science (IISc), Bangalore. Email: nsundaram@iisc.ac.in"
+      - name: Hindi
+        summary: "Native speaker"
+
+      - name: Odia
+        summary: "Proficient"
+
+    References:
+      - name: Prof. Ananth Ramaswamy
+        icon: fa-solid fa-user-tie
+        Designation: Professor & Chairman, Department of Civil Engineering, Indian Institute of Science (IISc), Bangalore
+        Email: ananth@iisc.ac.in
+
+      - name: Prof. Debasish Roy
+        icon: fa-solid fa-user-tie
+        Designation: Professor, Department of Civil Engineering, Indian Institute of Science (IISc), Bangalore
+        Email: royd@iisc.ac.in
+
+      - name: Prof. Narayan Sundaram
+        icon: fa-solid fa-user-tie
+        Designation: Associate Professor, Department of Civil Engineering, Indian Institute of Science (IISc), Bangalore
+        Email: nsundaram@iisc.ac.in
