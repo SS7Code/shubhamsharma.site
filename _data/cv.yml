@@ -164,28 +164,6 @@ cv:
         start_date: 2018-08-01
         end_date: 2019-07-01
 
-    Awards:
-      - title: ISRO Fellowship
-        date: 2019-08-01
-        awarder: Indian Space Research Organisation (ISRO)
-        summary: "Awarded ISRO fellowship for pursuing PhD at IISc Bengaluru (2019–2023)"
-
-      - title: MHRD Fellowship (GATE)
-
-        date: 2018-01-01
-        awarder: Ministry of Human Resource Development, India
-        summary: "Awarded MHRD fellowship for qualifying GATE"
-
-      - title: "Topped FEM Course"
-        date: 2019-01-01
-        awarder: Indian Institute of Science
-        summary: "Topped the class of 60 students in the course on Finite Element Method (FEM)"
-
-      - title: "Distinction in Mathematics (UNSW Assessment)"
-        date: 2011-01-01
-        awarder: University of New South Wales, Sydney, Australia
-        summary: "Awarded 'Distinction' in Mathematics in an international assessment test conducted by UNSW"
-
     Skills:
       - name: Numerical Methods & Simulation
         level: Expert
