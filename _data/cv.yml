@@ -4,7 +4,7 @@ cv:
   email: sharma.shubham.mailbox@gmail.com
   location: Bengaluru, India
   image: ""
-  summary: "Applied mechanics researcher with a PhD from IISc Bengaluru. My work sits at the intersection of numerical methods and fracture mechanics — developing Virtual Element Methods (VEM) for Phase Field Fracture models, with applications in composites and structural failure prediction. Published in journals including Composite Structures and Journal of Applied Mechanics. Currently building cloud-native engineering simulation software at SST India. Proficient in ABAQUS, Python, C++, MATLAB, and FORTRAN."
+  summary: Applied mechanics researcher with a PhD from IISc Bengaluru. My work sits at the intersection of numerical methods and fracture mechanics — developing Virtual Element Methods (VEM) for Phase Field Fracture models, with applications in composites and structural failure prediction. Published in journals including Composite Structures and Journal of Applied Mechanics. Currently building cloud-native engineering simulation software at SST India. Proficient in ABAQUS, Python, C++, MATLAB, and FORTRAN.
   social_networks:
     - network: LinkedIn
       username: shubham-sharma-iisc
@@ -14,7 +14,7 @@ cv:
     city: Bengaluru
     region: Karnataka
     postalCode: 560094
-    countryCode: India
+    countryCode: IN
 
   sections:
     Education:
@@ -25,7 +25,8 @@ cv:
         studyType: PhD
         start_date: 2019-08-01
         end_date: 2025-07-01
-        score: "8.7/10"
+        score: 8.7/10
+
         highlights:
           - "Thesis: Virtual Element Methods for Phase Field Fracture: Mesh Transitions, Composite Damage, and Stabilization-Free Formulations"
           - "ISRO Fellowship awardee (2019–2023)"
@@ -79,10 +80,12 @@ cv:
           - "Collaborated in designing steel trusses of span ranging from 6 ft to 20 ft"
 
       - company: South Eastern Railways
+
         position: Winter Intern
         location: Sundergarh, Odisha, India
         start_date: 2016-12-01
         end_date: 2016-12-31
+
         highlights:
           - "Gained exposure to construction division activities including fabrication of steel girders of span 45.7 m"
 
@@ -107,6 +110,7 @@ cv:
         summary: "Developed a novel mesh transition strategy within VEM for phase-field fracture, reducing computational time by up to 60% in crack propagation simulations."
 
       - title: "A Geometrically Inspired Model for Brittle Damage in Compressible Elastomers"
+
         authors:
           - Sanhita Das
           - Shubham Sharma
@@ -167,6 +171,7 @@ cv:
         summary: "Awarded ISRO fellowship for pursuing PhD at IISc Bengaluru (2019–2023)"
 
       - title: MHRD Fellowship (GATE)
+
         date: 2018-01-01
         awarder: Ministry of Human Resource Development, India
         summary: "Awarded MHRD fellowship for qualifying GATE"
