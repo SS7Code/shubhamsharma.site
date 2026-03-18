@@ -1,13 +1,15 @@
 <!-- jQuery -->
 <script
+  defer
   src="{{ site.third_party_libraries.jquery.url.js }}"
   integrity="{{ site.third_party_libraries.jquery.integrity.js }}"
   crossorigin="anonymous"
 ></script>
 
 <!-- Bootsrap & MDB scripts -->
-<script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
+<script defer src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
 <script
+  defer
   src="{{ site.third_party_libraries.mdb.url.js }}"
   integrity="{{ site.third_party_libraries.mdb.integrity.js }}"
   crossorigin="anonymous"
@@ -180,7 +182,7 @@
 {% endif %}
 
 <!-- Load Common JS -->
-<script src="{{ '/assets/js/no_defer.js' | relative_url | bust_file_cache }}"></script>
+<script defer src="{{ '/assets/js/no_defer.js' | relative_url | bust_file_cache }}"></script>
 <script defer src="{{ '/assets/js/common.js' | relative_url | bust_file_cache }}"></script>
 <script defer src="{{ '/assets/js/copy_code.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
 
@@ -189,29 +191,58 @@
 
 <!-- Badges -->
 {% if site.enable_publication_badges.altmetric %}
-  <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+  <script>
+    if (document.querySelector(".altmetric-embed")) {
+      const altmetricScript = document.createElement("script");
+      altmetricScript.async = true;
+      altmetricScript.src = "https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js";
+      document.head.appendChild(altmetricScript);
+    }
+  </script>
 {% endif %}
 {% if site.enable_publication_badges.dimensions %}
-  <script async src="https://badge.dimensions.ai/badge.js"></script>
+  <script>
+    if (document.querySelector(".__dimensions_badge_embed__")) {
+      const dimensionsScript = document.createElement("script");
+      dimensionsScript.async = true;
+      dimensionsScript.src = "https://badge.dimensions.ai/badge.js";
+      document.head.appendChild(dimensionsScript);
+    }
+  </script>
 {% endif %}
 
 {% if site.enable_math %}
   <!-- MathJax -->
-  <script
-    defer
-    type="text/javascript"
-    id="MathJax-script"
-    src="{{ site.third_party_libraries.mathjax.url.js }}"
-    integrity="{{ site.third_party_libraries.mathjax.integrity.js }}"
-    crossorigin="anonymous"
-  ></script>
   {% unless page.pseudocode %}
     <script src="{{ '/assets/js/mathjax-setup.js' | relative_url | bust_file_cache }}"></script>
-    <script
-      defer
-      src="{{ site.third_party_libraries.polyfill.url.js }}"
-      crossorigin="anonymous"
-    ></script>
+    <script>
+      (function () {
+        const hasMath =
+          document.querySelector("script[type^='math/tex']") ||
+          document.querySelector(".math") ||
+          document.querySelector("mjx-container") ||
+          /\\\(|\\\[|\$\$/.test(document.body ? document.body.textContent : "");
+
+        if (!hasMath) {
+          return;
+        }
+
+        const polyfillScript = document.createElement("script");
+        polyfillScript.defer = true;
+        polyfillScript.src = "{{ site.third_party_libraries.polyfill.url.js }}";
+        polyfillScript.crossOrigin = "anonymous";
+        document.head.appendChild(polyfillScript);
+
+        const mathjaxScript = document.createElement("script");
+        mathjaxScript.defer = true;
+        mathjaxScript.type = "text/javascript";
+        mathjaxScript.id = "MathJax-script";
+        mathjaxScript.src = "{{ site.third_party_libraries.mathjax.url.js }}";
+        mathjaxScript.integrity = "{{ site.third_party_libraries.mathjax.integrity.js }}";
+        mathjaxScript.crossOrigin = "anonymous";
+        document.head.appendChild(mathjaxScript);
+      })();
+    </script>
   {% else %}
     <script src="{{ '/assets/js/pseudocode-setup.js' | relative_url | bust_file_cache }}"></script>
     <script

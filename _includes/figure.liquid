@@ -38,13 +38,9 @@
       {% endif %}
       {% if include.width %}
         width="{{ include.width }}"
-      {% else %}
-        width="100%"
       {% endif %}
       {% if include.height %}
         height="{{ include.height }}"
-      {% else %}
-        height="auto"
       {% endif %}
       {% if include['min-width'] or include['min-height'] or include['max-width'] or include['max-height'] %}
         style="
@@ -75,6 +71,9 @@
         loading="{{ include.loading }}"
       {% elsif site.lazy_loading_images %}
         loading="lazy"
+      {% endif %}
+      {% if include.fetchpriority %}
+        fetchpriority="{{ include.fetchpriority }}"
       {% endif %}
       onerror="this.onerror=null; $('.responsive-img-srcset').remove();"
     >
