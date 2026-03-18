@@ -7,8 +7,6 @@ subtitle: Senior Research Engineer, <a href='https://sstusa.com'>SST India Pvt. 
 profile:
   align: right
   image: prof_pic.jpg
-  image_width: 2048
-  image_height: 2048
   image_circular: false # crops the image to make it circular
 
 selected_papers: true # includes a list of papers marked as "selected={true}"

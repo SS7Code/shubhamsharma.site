@@ -27,29 +27,17 @@
       {% endif %}
       {% if entry.preview %}
         {% if entry.preview contains '://' %}
-          <img
-            class="preview z-depth-1 rounded"
-            src="{{ entry.preview }}"
-            {% if entry.preview_width %}
-              width="{{ entry.preview_width }}"
-            {% endif %}
-            {% if entry.preview_height %}
-              height="{{ entry.preview_height }}"
-            {% endif %}
-            loading="lazy"
-          >
+          <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
         {% else %}
           {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
           {%
             include figure.liquid
-            loading="lazy"
+            loading="eager"
             path=entry_path
             sizes = "200px"
             class="preview z-depth-1 rounded"
             zoomable=true
             avoid_scaling=true
-            width=entry.preview_width
-            height=entry.preview_height
             alt=entry.preview
           %}
         {% endif %}
