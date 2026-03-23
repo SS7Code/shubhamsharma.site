@@ -4,7 +4,6 @@
 - Location: Bengaluru, India
 - LinkedIn: [shubham-sharma-iisc](https://linkedin.com/in/shubham-sharma-iisc)
 
-
 # Education
 
 ## Indian Institute of Science, Structural Engineering
@@ -58,15 +57,19 @@
 # Publications
 
 ## A robust virtual element method framework coupling phase-field and cohesive zone models for crack propagation in composite structures ([https://doi.org/10.1016/j.compstruct.2026.120081](doi.org/10.1016/j.compstruct.2026.120081))
+
 - Shubham Sharma, Ananth Ramaswamy
 
 ## Fine to coarse mesh transition in phase-field fracture simulations using the virtual element method ([https://doi.org/10.1016/j.finel.2025.104371](doi.org/10.1016/j.finel.2025.104371))
+
 - Shubham Sharma, Himanshu, Ananth Ramaswamy
 
 ## A Geometrically Inspired Model for Brittle Damage in Compressible Elastomers ([https://doi.org/10.1115/1.4050620](doi.org/10.1115/1.4050620))
+
 - Sanhita Das, Shubham Sharma, Ananth Ramaswamy, Debasish Roy, J. N. Reddy
 
-## A comparison of lowest order standard and stabilization-free virtual element method for phase-field fracture 
+## A comparison of lowest order standard and stabilization-free virtual element method for phase-field fracture
+
 - Shubham Sharma, Ananth Ramaswamy
 
 # Projects
@@ -100,32 +103,22 @@
 
 ## Numerical Methods & Simulation
 
-
 ## Programming
 
-
 ## FEM Software
-
 
 # Languages
 
 ## English
 
-
 ## Hindi
 
-
 ## Odia
-
 
 # References
 
 ## Prof. Ananth Ramaswamy
 
-
 ## Prof. Debasish Roy
 
-
 ## Prof. Narayan Sundaram
-
-
