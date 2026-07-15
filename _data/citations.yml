@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-18'
+  last_updated: '2026-07-15'
 papers:
   fUjw8WQAAAAJ:2osOgNQ5qMEC:
     citations: 5
@@ -9,6 +9,10 @@ papers:
     citations: 0
     title: A robust virtual element method framework coupling phase-field and cohesive zone models for crack propagation in composite structures
     year: '2026'
+  fUjw8WQAAAAJ:Tyk-4Ss8FVUC:
+    citations: 0
+    title: Computation of critical asphalt pavement response using artificial neural networks
+    year: '2019'
   fUjw8WQAAAAJ:UeHWp8X0CEIC:
     citations: 0
     title: 'Virtual Element Methods for Phase Field Fracture: Mesh Transitions, Composite Damage, and Stabilization-Free Formulations'
@@ -17,3 +21,7 @@ papers:
     citations: 11
     title: A geometrically inspired model for brittle damage in compressible elastomers
     year: '2021'
+  fUjw8WQAAAAJ:zYLM7Y9cAGgC:
+    citations: 0
+    title: Modelling of Crack Propagation in Finite Thickness Brittle Adhesive Layer
+    year: '2023'
