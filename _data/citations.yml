@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-15'
+  last_updated: '2026-08-12'
 papers:
   fUjw8WQAAAAJ:2osOgNQ5qMEC:
     citations: 5
@@ -16,7 +16,7 @@ papers:
   fUjw8WQAAAAJ:UeHWp8X0CEIC:
     citations: 0
     title: 'Virtual Element Methods for Phase Field Fracture: Mesh Transitions, Composite Damage, and Stabilization-Free Formulations'
-    year: '2025'
+    year: Unknown Year
   fUjw8WQAAAAJ:u-x6o8ySG0sC:
     citations: 11
     title: A geometrically inspired model for brittle damage in compressible elastomers
