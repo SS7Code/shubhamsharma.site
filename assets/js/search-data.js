@@ -28,14 +28,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-joined-sst-india-as-a-senior-research-engineer",
-          title: 'Joined SST India as a Senior Research Engineer !',
-          description: "",
-          section: "News",},{id: "news-defended-my-phd-thesis-from-iisc-bengaluru",
+            },},{id: "news-defended-my-phd-thesis-from-iisc-bengaluru",
           title: 'Defended my PhD thesis from IISc Bengaluru !',
           description: "",
           section: "News",},{id: "news-my-girlfriend-is-now-my-wife-️",
           title: 'My girlfriend is now my wife ❤️',
+          description: "",
+          section: "News",},{id: "news-joined-exxonmobil-as-a-wells-engineer-in-the-advanced-modelling-group",
+          title: 'Joined ExxonMobil as a Wells Engineer in the Advanced Modelling Group !',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
