@@ -35,7 +35,7 @@ ninja.data = [{
           title: 'My girlfriend is now my wife ❤️',
           description: "",
           section: "News",},{id: "news-joined-exxonmobil-as-a-wells-engineer-in-the-completions-advanced-modelling-group",
-          title: 'Joined ExxonMobil as a Wells Engineer in the Completions (Advanced Modelling) Group !...',
+          title: 'Joined ExxonMobil as a Wells Engineer in the Completions (Advanced Modelling) Group!',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
