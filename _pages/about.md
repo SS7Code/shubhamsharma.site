@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Wells Engineer - Advanced Modelling, <a href='https://corporate.exxonmobil.com/'>ExxonMobil</a>, Bengaluru, India
+subtitle: Wells Engineer - Completions (Advanced Modelling), <a href='https://corporate.exxonmobil.com/'>ExxonMobil</a>, Bengaluru, India
 
 profile:
   align: right
