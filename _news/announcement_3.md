@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Joined ExxonMobil as a Wells Engineer in the Advanced Modelling Group !
+Joined ExxonMobil as a Wells Engineer in the Completions (Advanced Modelling) Group !
